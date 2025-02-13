@@ -1,50 +1,73 @@
-# React + TypeScript + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Memory Game** é um jogo da memória desenvolvido em **React** com **TypeScript**. O jogo desafia o usuário a encontrar todos os pares de cartas no menor tempo possível e com o menor número de movimentos.  
 
-Currently, two official plugins are available:
+## ⚙️ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Temporizador**: Veja quanto tempo você leva para completar o jogo.
+- **Contagem de Movimentos**: Acompanhe o número de movimentos realizados.
+- **Recomeçar Jogo**: Reinicie o jogo a qualquer momento.
+- **Animações Suaves**: Utilizando **styled-components** para uma experiência fluida.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React.js**  
+- **TypeScript**  
+- **Styled-Components** para estilização.   
 
-- Configure the top-level `parserOptions` property like this:
+## 📦 Instalação e Execução
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/guiarruda10/game-memory.git
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Acesse o diretório do projeto:
+   ```bash
+   cd game-memory
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+4. Inicie o projeto:
+   ```bash
+   npm run dev
+   ```
+
+O jogo estará disponível em [http://localhost:3000](http://localhost:3000).  
+
+## 🎮 Como Jogar
+
+- Clique em duas cartas para revelá-las.
+- Se as cartas forem iguais, elas permanecerão viradas.
+- Se forem diferentes, elas serão escondidas novamente.
+- O objetivo é encontrar todos os pares no menor tempo e com o menor número de movimentos possíveis.
+  
+## 🔧 Ajustes e Melhorias
+
+Futuramente, podem ser adicionadas as seguintes funcionalidades:
+- Diferentes níveis de dificuldade.
+- Animações mais dinâmicas.
+- Ranking de melhores tempos.
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:  
+
+1. Faça um fork do projeto.  
+2. Crie uma branch para sua feature: `git checkout -b feature/nome-da-feature`.  
+3. Faça as alterações necessárias e faça commit delas: `git commit -m 'Adicionando nova feature'`.  
+4. Envie para o repositório remoto: `git push origin feature/nome-da-feature`.  
+5. Abra um Pull Request.  
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](LICENSE).  
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Guilherme Magalhães de Arruda**.  
+[GitHub](https://github.com/guiarruda10)
