@@ -2,20 +2,20 @@
 
 O **Memory Game** é um jogo da memória desenvolvido em **React** com **TypeScript**. O jogo desafia o usuário a encontrar todos os pares de cartas no menor tempo possível e com o menor número de movimentos.  
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 - **Temporizador**: Veja quanto tempo você leva para completar o jogo.
 - **Contagem de Movimentos**: Acompanhe o número de movimentos realizados.
 - **Recomeçar Jogo**: Reinicie o jogo a qualquer momento.
 - **Animações Suaves**: Utilizando **styled-components** para uma experiência fluida.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **React.js**  
 - **TypeScript**  
 - **Styled-Components** para estilização.   
 
-## 📦 Instalação e Execução
+##  Instalação e Execução
 
 1. Clone o repositório:
    ```bash
@@ -39,21 +39,21 @@ O **Memory Game** é um jogo da memória desenvolvido em **React** com **TypeScr
 
 O jogo estará disponível em [http://localhost:3000](http://localhost:3000).  
 
-## 🎮 Como Jogar
+##  Como Jogar
 
 - Clique em duas cartas para revelá-las.
 - Se as cartas forem iguais, elas permanecerão viradas.
 - Se forem diferentes, elas serão escondidas novamente.
 - O objetivo é encontrar todos os pares no menor tempo e com o menor número de movimentos possíveis.
   
-## 🔧 Ajustes e Melhorias
+##  Ajustes e Melhorias
 
 Futuramente, podem ser adicionadas as seguintes funcionalidades:
 - Diferentes níveis de dificuldade.
 - Animações mais dinâmicas.
 - Ranking de melhores tempos.
 
-## 🤝 Contribuição
+##  Contribuição
 
 Contribuições são bem-vindas! Para contribuir:  
 
@@ -63,7 +63,7 @@ Contribuições são bem-vindas! Para contribuir:
 4. Envie para o repositório remoto: `git push origin feature/nome-da-feature`.  
 5. Abra um Pull Request.  
 
-## 📝 Licença
+##  Licença
 
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](LICENSE).  
 
