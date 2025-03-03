@@ -67,7 +67,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](LICENSE).  
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Guilherme Magalhães de Arruda**.  
 [GitHub](https://github.com/guiarruda10)
